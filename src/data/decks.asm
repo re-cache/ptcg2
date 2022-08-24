@@ -181,7 +181,7 @@ StarterDeck: ; 59600 (16:5600)
 	dbw  1, BILL
 	db 0
 
-SweatAntiGR1Deck: ; 
+SweatAntiGR1Deck: ; 59637
 	dbw 12, GRASS_ENERGY
 	dbw 15, FIGHTING_ENERGY
 	dbw  4, CATERPIE
@@ -201,7 +201,7 @@ SweatAntiGR1Deck: ;
 	dbw  1, GUST_OF_WIND
 	db 0
 
-GiveInAntiGR2Deck: ; 
+GiveInAntiGR2Deck: ; 5966b
 	dbw 15, GRASS_ENERGY
 	dbw 11, WATER_ENERGY
 	dbw  4, BULBASAUR_LV12
@@ -223,7 +223,7 @@ GiveInAntiGR2Deck: ;
 	dbw  1, BILL
 	db 0
 
-VengefulAntiGR3Deck: ; 
+VengefulAntiGR3Deck: ; 596a5
 	dbw 12, FIRE_ENERGY
 	dbw 15, WATER_ENERGY
 	dbw  3, VULPIX_LV11
@@ -246,7 +246,7 @@ VengefulAntiGR3Deck: ;
 	dbw  1, BILL
 	db 0
 
-UnforgivingAntiGR4Deck: ; 
+UnforgivingAntiGR4Deck: ; 596e2
 	dbw 13, LIGHTNING_ENERGY
 	dbw 13, PSYCHIC_ENERGY
 	dbw  1, DOUBLE_COLORLESS_ENERGY
@@ -268,7 +268,7 @@ UnforgivingAntiGR4Deck: ;
 	dbw  2, BILL
 	db 0
 
-PlayerPracticeDeck: ; 
+PlayerPracticeDeck: ; 5971c
 	dbw  1, GRASS_ENERGY
 	dbw  1, GRASS_ENERGY
 	dbw  1, FIGHTING_ENERGY
@@ -331,7 +331,7 @@ PlayerPracticeDeck: ;
 	dbw  1, NIDORANM_LV20
 	db 0
 
-SamsPracticeDeck: ; 
+SamsPracticeDeck: ; 597d1
 	dbw  1, GOLDEEN
 	dbw  1, SEEL_LV12
 	dbw  1, WATER_ENERGY
@@ -394,7 +394,7 @@ SamsPracticeDeck: ;
 	dbw  1, WATER_ENERGY
 	db 0
 
-AaronPracticeDeck1: ; 
+AaronPracticeDeck1: ; 59886
 	dbw  1, GOLDEEN
 	dbw  1, SEAKING
 	dbw  1, DRATINI_LV10
@@ -457,7 +457,7 @@ AaronPracticeDeck1: ;
 	dbw  1, POTION
 	db 0
 
-AaronsStep1Deck: ; 
+AaronsStep1Deck: ; 5993b
 	dbw  1, HITMONCHAN_LV33
 	dbw  1, BULBASAUR_LV12
 	dbw  1, POTION
@@ -520,7 +520,7 @@ AaronsStep1Deck: ;
 	dbw  1, MEOWTH_LV17
 	db  0
 
-AaronPracticeDeck2: ; 
+AaronPracticeDeck2: ; 599f0
 	dbw  1, GOLDEEN
 	dbw  1, MAGIKARP_LV8
 	dbw  1, FIRE_ENERGY
@@ -583,7 +583,7 @@ AaronPracticeDeck2: ;
 	dbw  1, MAGIKARP_LV8
 	db 0
 
-AaronsStep2Deck: ; 
+AaronsStep2Deck: ; 59aa5
 	dbw  1, GRIMER_LV10
 	dbw  1, RATTATA_LV9
 	dbw  1, GRASS_ENERGY
@@ -646,7 +646,7 @@ AaronsStep2Deck: ;
 	dbw  1, PSYCHIC_ENERGY
 	db 0
 
-AaronPracticeDeck3: ; 
+AaronPracticeDeck3: ; 59b5a
 	dbw  1, KANGASKHAN_LV40
 	dbw  1, SQUIRTLE_LV14
 	dbw  1, BLASTOISE_LV52
@@ -709,7 +709,7 @@ AaronPracticeDeck3: ;
 	dbw  1, WATER_ENERGY
 	db 0
 
-AaronsStep3Deck: ; 
+AaronsStep3Deck: ; 59c0f
 	dbw  1, CHANSEY_LV55
 	dbw  1, ABRA_LV10
 	dbw  1, ALAKAZAM_LV42
@@ -772,7 +772,7 @@ AaronsStep3Deck: ;
 	dbw  1, SCOOP_UP
 	db 0
 
-AaronNormalDeck: ; 
+AaronNormalDeck: ; 59cc4
 	dbw 16, GRASS_ENERGY
 	dbw 10, WATER_ENERGY
 	dbw  2, BELLSPROUT_LV10
@@ -795,7 +795,7 @@ AaronNormalDeck: ;
 	dbw  1, BILLS_TELEPORTER
 	db 0
 
-AaronNormalDeck2: ; 
+AaronNormalDeck2: ; 59d01
 	dbw 12, LIGHTNING_ENERGY
 	dbw 12, FIGHTING_ENERGY
 	dbw  2, RAINBOW_ENERGY
@@ -814,7 +814,7 @@ AaronNormalDeck2: ;
 	dbw  2, BILL
 	db 0
 
-SkySparkDeck: ; 
+SkySparkDeck: ; 59d32
 	dbw 23, LIGHTNING_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  4, PIKACHU_LV14
@@ -834,7 +834,7 @@ SkySparkDeck: ;
 	dbw  2, BILL
 	db 0
 
-ElectricSuicideDeck: ; 
+ElectricSuicideDeck: ; 59d66
 	dbw 16, LIGHTNING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  2, POTION_ENERGY
@@ -856,7 +856,7 @@ ElectricSuicideDeck: ;
 	dbw  3, BILL
 	db 0
 
-OverflowDeck: ; 
+OverflowDeck: ; 59da0
 	dbw 23, LIGHTNING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, MAGNEMITE_LV12
@@ -876,7 +876,7 @@ OverflowDeck: ;
 	dbw  2, BILL
 	db 0
 
-TripleThunderDeck: ; 
+TripleThunderDeck: ; 59dd4
 	dbw 25, LIGHTNING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  2, POTION_ENERGY
@@ -899,7 +899,7 @@ TripleThunderDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-ILovePikachuDeck: ; 
+ILovePikachuDeck: ; 59e11
 	dbw  9, WATER_ENERGY
 	dbw 20, LIGHTNING_ENERGY
 	dbw  3, SQUIRTLE_LV8
@@ -923,7 +923,7 @@ ILovePikachuDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-TenThousandVoltsDeck: ; 
+TenThousandVoltsDeck: ; 59e51
 	dbw 26, LIGHTNING_ENERGY
 	dbw  2, PIKACHU_LV12
 	dbw  2, PIKACHU_LV14
@@ -941,7 +941,7 @@ TenThousandVoltsDeck: ;
 	dbw  4, BILL
 	db 0
 
-HandOverGRDeck: ; 
+HandOverGRDeck: ; 59e7f
 	dbw 24, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  3, ABRA_LV8
@@ -962,7 +962,7 @@ HandOverGRDeck: ;
 	dbw  2, BILLS_TELEPORTER
 	db 0
 
-PsychicEliteDeck: ; 
+PsychicEliteDeck: ; 59eb6
 	dbw 14, PSYCHIC_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, ABRA_LV14
@@ -984,7 +984,7 @@ PsychicEliteDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-PsychokinesisDeck: ; 
+PsychokinesisDeck: ; 59ef0
 	dbw 26, PSYCHIC_ENERGY
 	dbw  4, ABRA_LV8
 	dbw  3, KADABRA_LV39
@@ -1006,7 +1006,7 @@ PsychokinesisDeck: ;
 	dbw  1, MASTER_BALL
 	db 0
 
-PhantomDeck: ; 
+PhantomDeck: ; 59f2a
 	dbw 24, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, GASTLY_LV8
@@ -1031,7 +1031,7 @@ PhantomDeck: ;
 	dbw  2, BILL
 	db 0
 
-PuppetMasterDeck: ; 
+PuppetMasterDeck: ; 59f6d
 	dbw 24, PSYCHIC_ENERGY
 	dbw  4, SLOWPOKE_LV18
 	dbw  3, SLOWBRO_LV26
@@ -1049,7 +1049,7 @@ PuppetMasterDeck: ;
 	dbw  2, MASTER_BALL
 	db 0
 
-Even3YearsOnARockDeck: ; 
+Even3YearsOnARockDeck: ; 59f9b
 	dbw 26, FIGHTING_ENERGY
 	dbw  4, GEODUDE_LV16
 	dbw  3, GRAVELER_LV28
@@ -1065,7 +1065,7 @@ Even3YearsOnARockDeck: ;
 	dbw  2, BILL
 	db 0
 
-RollingStoneDeck: ; 
+RollingStoneDeck: ; 59fc3
 	dbw  8, FIRE_ENERGY
 	dbw 16, FIGHTING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
@@ -1088,7 +1088,7 @@ RollingStoneDeck: ;
 	dbw  2, BILL
 	db 0
 
-GreatEarthquakeDeck: ; 
+GreatEarthquakeDeck: ; 5a000
 	dbw 26, FIGHTING_ENERGY
 	dbw  3, SANDSHREW_LV12
 	dbw  1, SANDSLASH_LV33
@@ -1109,7 +1109,7 @@ GreatEarthquakeDeck: ;
 	dbw  2, BILL
 	db 0
 
-AwesomeFossilDeck: ; 
+AwesomeFossilDeck: ; 5a037
 	dbw 27, FIGHTING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  2, OMANYTE_LV20
@@ -1129,7 +1129,7 @@ AwesomeFossilDeck: ;
 	dbw  2, BILL
 	db 0
 
-WavesPunchDeck: ; 
+WavesPunchDeck: ; 5a06b
 	dbw 19, FIGHTING_ENERGY
 	dbw  4, PSYCHIC_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
@@ -1153,7 +1153,7 @@ WavesPunchDeck: ;
 	dbw  2, BILL
 	db 0
 
-YouCanDoItMachopDeck: ; 
+YouCanDoItMachopDeck: ; 5a0ab
 	dbw  5, LIGHTNING_ENERGY
 	dbw 22, FIGHTING_ENERGY
 	dbw  2, PIKACHU_LV12
@@ -1173,7 +1173,7 @@ YouCanDoItMachopDeck: ;
 	dbw  2, BILL
 	db 0
 
-NewMachokeDeck: ; 
+NewMachokeDeck: ; 5a0df
 	dbw 21, FIGHTING_ENERGY
 	dbw  6, PSYCHIC_ENERGY
 	dbw  1, DOUBLE_COLORLESS_ENERGY
@@ -1195,7 +1195,7 @@ NewMachokeDeck: ;
 	dbw  2, BILL
 	db 0
 
-SkilledWarriorDeck: ; 
+SkilledWarriorDeck: ; 5a119
 	dbw 25, FIGHTING_ENERGY
 	dbw  4, SANDSHREW_LV12
 	dbw  3, SANDSLASH_LV33
@@ -1216,7 +1216,7 @@ SkilledWarriorDeck: ;
 	dbw  2, BILL
 	db 0
 
-ILoveToFightDeck: ; 
+ILoveToFightDeck: ; 5a150
 	dbw 25, FIGHTING_ENERGY
 	dbw  3, MANKEY_LV7
 	dbw  2, PRIMEAPE
@@ -1235,7 +1235,7 @@ ILoveToFightDeck: ;
 	dbw  2, PLUSPOWER
 	db 0
 
-MaxEnergyDeck: ; 
+MaxEnergyDeck: ; 5a181
 	dbw 20, GRASS_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, BULBASAUR_LV12
@@ -1254,7 +1254,7 @@ MaxEnergyDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-PoisonBeeDeck: ; 
+PoisonBeeDeck: ; 5a1b2
 	dbw 27, GRASS_ENERGY
 	dbw  3, BULBASAUR_LV12
 	dbw  1, IVYSAUR_LV26
@@ -1272,7 +1272,7 @@ PoisonBeeDeck: ;
 	dbw  4, POKEBALL
 	db 0
 
-PoisonCurseDeck: ; 
+PoisonCurseDeck: ; 5a1e0
 	dbw 25, GRASS_ENERGY
 	dbw  1, DOUBLE_COLORLESS_ENERGY
 	dbw  4, WEEDLE_LV15
@@ -1294,7 +1294,7 @@ PoisonCurseDeck: ;
 	dbw  1, BILL
 	db 0
 
-GlitteringScalesDeck: ; 
+GlitteringScalesDeck: ; 5a21a
 	dbw 24, GRASS_ENERGY
 	dbw  3, BULBASAUR_LV12
 	dbw  2, IVYSAUR_LV26
@@ -1315,7 +1315,7 @@ GlitteringScalesDeck: ;
 	dbw  2, BILL
 	db 0
 
-SteadyIncreaseDeck: ; 
+SteadyIncreaseDeck: ; 5a251
 	dbw 23, GRASS_ENERGY
 	dbw  4, ODDISH_LV8
 	dbw  3, GLOOM
@@ -1332,7 +1332,7 @@ SteadyIncreaseDeck: ;
 	dbw  4, MR_FUJI
 	db 0
 
-DarkScienceDeck: ; 
+DarkScienceDeck: ; 5a27c
 	dbw 25, GRASS_ENERGY
 	dbw  3, EKANS_LV15
 	dbw  2, ARBOK_LV30
@@ -1353,7 +1353,7 @@ DarkScienceDeck: ;
 	dbw  1, THE_ROCKETS_TRAP
 	db 0
 
-NaturalScienceDeck: ; 
+NaturalScienceDeck: ; 5a2b3
 	dbw 24, GRASS_ENERGY
 	dbw  1, DOUBLE_COLORLESS_ENERGY
 	dbw  3, BULBASAUR_LV12
@@ -1372,7 +1372,7 @@ NaturalScienceDeck: ;
 	dbw  2, BILL
 	db 0
 
-PoisonousSwampDeck: ; 
+PoisonousSwampDeck: ; 5a2e4
 	dbw 25, GRASS_ENERGY
 	dbw  4, EKANS_LV10
 	dbw  2, ARBOK_LV30
@@ -1389,7 +1389,7 @@ PoisonousSwampDeck: ;
 	dbw  2, BILL
 	db 0
 
-GatheringNidoranDeck: ; 
+GatheringNidoranDeck: ; 5a30f
 	dbw 23, GRASS_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  2, NIDORANF_LV12
@@ -1411,7 +1411,7 @@ GatheringNidoranDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-RainDanceConfusionDeck: ; 
+RainDanceConfusionDeck: ; 5a349
 	dbw 25, WATER_ENERGY
 	dbw  2, SQUIRTLE_LV15
 	dbw  2, SQUIRTLE_LV16
@@ -1430,7 +1430,7 @@ RainDanceConfusionDeck: ;
 	dbw  4, BILL
 	db 0
 
-ConservingWaterDeck: ; 
+ConservingWaterDeck: ; 5a37a
 	dbw 25, WATER_ENERGY
 	dbw  4, SEEL_LV12
 	dbw  2, DEWGONG_LV42
@@ -1449,7 +1449,7 @@ ConservingWaterDeck: ;
 	dbw  2, BILL
 	db 0
 
-EnergyRemovalDeck: ; 
+EnergyRemovalDeck: ; 5a3ab
 	dbw 18, WATER_ENERGY
 	dbw  6, PSYCHIC_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
@@ -1469,7 +1469,7 @@ EnergyRemovalDeck: ;
 	dbw  2, BILL
 	db 0
 
-SplashingAboutDeck: ; 
+SplashingAboutDeck: ; 5a3df
 	dbw 26, WATER_ENERGY
 	dbw  4, SQUIRTLE_LV14
 	dbw  3, WARTORTLE_LV24
@@ -1487,7 +1487,7 @@ SplashingAboutDeck: ;
 	dbw  3, BILL
 	db 0
 
-BeachDeck: ; 
+BeachDeck: ; 5a40d
 	dbw 24, WATER_ENERGY
 	dbw  3, TENTACOOL
 	dbw  2, TENTACRUEL
@@ -1508,7 +1508,7 @@ BeachDeck: ;
 	dbw  1, RECYCLE
 	db 0
 
-GoArcanineDeck: ; 
+GoArcanineDeck: ; 5a444
 	dbw 12, FIRE_ENERGY
 	dbw  6, WATER_ENERGY
 	dbw  5, FIGHTING_ENERGY
@@ -1531,7 +1531,7 @@ GoArcanineDeck: ;
 	dbw  2, ENERGY_RETRIEVAL
 	db 0
 
-FlameFestivalDeck: ; 
+FlameFestivalDeck: ; 5a481
 	dbw 26, FIRE_ENERGY
 	dbw  4, VULPIX_LV13
 	dbw  3, NINETALES_LV35
@@ -1549,7 +1549,7 @@ FlameFestivalDeck: ;
 	dbw  3, BILL
 	db 0
 
-ImmortalFlameDeck: ; 
+ImmortalFlameDeck: ; 5a4af
 	dbw 25, FIRE_ENERGY
 	dbw  4, CHARMANDER_LV10
 	dbw  3, CHARMELEON
@@ -1566,7 +1566,7 @@ ImmortalFlameDeck: ;
 	dbw  2, BILL
 	db 0
 
-ElectricCurrentShockDeck: ; 
+ElectricCurrentShockDeck: ; 5a4da
 	dbw 16, FIRE_ENERGY
 	dbw 12, LIGHTNING_ENERGY
 	dbw  4, VULPIX_LV11
@@ -1585,7 +1585,7 @@ ElectricCurrentShockDeck: ;
 	dbw  2, BILL
 	db 0
 
-GreatRocket4Deck: ; 
+GreatRocket4Deck: ; 5a50b
 	dbw 15, WATER_ENERGY
 	dbw 12, PSYCHIC_ENERGY
 	dbw  3, PSYDUCK_LV16
@@ -1609,7 +1609,7 @@ GreatRocket4Deck: ;
 	dbw  1, LASS
 	db 0
 
-GreatRocket1Deck: ; 
+GreatRocket1Deck: ; 5a54b
 	dbw 13, WATER_ENERGY
 	dbw 13, LIGHTNING_ENERGY
 	dbw  4, VOLTORB_LV13
@@ -1631,7 +1631,7 @@ GreatRocket1Deck: ;
 	dbw  1, SUPER_POTION
 	db 0
 
-GreatRocket2Deck: ; 
+GreatRocket2Deck: ; 5a585
 	dbw 12, GRASS_ENERGY
 	dbw 15, FIGHTING_ENERGY
 	dbw  1, FULLHEAL_ENERGY
@@ -1656,7 +1656,7 @@ GreatRocket2Deck: ;
 	dbw  1, THE_BOSSS_WAY
 	db 0
 
-GreatRocket3Deck: ; 
+GreatRocket3Deck: ; 5a5c8
 	dbw 16, GRASS_ENERGY
 	dbw 10, FIRE_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
@@ -1679,7 +1679,7 @@ GreatRocket3Deck: ;
 	dbw  2, BILL
 	db 0
 
-GrandFireDeck: ; 
+GrandFireDeck: ; 5a605
 	dbw 22, FIRE_ENERGY
 	dbw  2, FULLHEAL_ENERGY
 	dbw  2, MOLTRES_LV40
@@ -1699,7 +1699,7 @@ GrandFireDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-LegendaryFossilDeck: ; 
+LegendaryFossilDeck: ; 5a639
 	dbw 21, LIGHTNING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  3, VOLTORB_LV13
@@ -1722,7 +1722,7 @@ LegendaryFossilDeck: ;
 	dbw  1, NIGHTLY_GARBAGE_RUN
 	db 0
 
-WaterLegendDeck: ; 
+WaterLegendDeck: ; 5a676
 	dbw 20, WATER_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  2, FULLHEAL_ENERGY
@@ -1744,7 +1744,7 @@ WaterLegendDeck: ;
 	dbw  3, BILL
 	db 0
 
-GreatDragonDeck: ; 
+GreatDragonDeck: ; 5a6b0
 	dbw 18, FIRE_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  2, FULLHEAL_ENERGY
@@ -1767,7 +1767,7 @@ GreatDragonDeck: ;
 	dbw  2, MASTER_BALL
 	db 0
 
-BugCollectingDeck: ; 
+BugCollectingDeck: ; 5a6ed
 	dbw 24, GRASS_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  3, CATERPIE
@@ -1789,7 +1789,7 @@ BugCollectingDeck: ;
 	dbw  2, MASTER_BALL
 	db 0
 
-DemonicForestDeck: ; 
+DemonicForestDeck: ; 5a727
 	dbw 15, GRASS_ENERGY
 	dbw 10, PSYCHIC_ENERGY
 	dbw  4, BULBASAUR_LV15
@@ -1809,7 +1809,7 @@ DemonicForestDeck: ;
 	dbw  1, POKEBALL
 	db 0
 
-StickyPoisonGasDeck: ; 
+StickyPoisonGasDeck: ; 5a75b
 	dbw 24, GRASS_ENERGY
 	dbw  4, EKANS_LV15
 	dbw  3, DARK_ARBOK
@@ -1828,7 +1828,7 @@ StickyPoisonGasDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-MadPetalsDeck: ; 
+MadPetalsDeck: ; 5a78c
 	dbw 17, GRASS_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  3, RAINBOW_ENERGY
@@ -1849,7 +1849,7 @@ MadPetalsDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-TapDeck: ; 
+TapDeck: ; 5a7c3
 	dbw 18, LIGHTNING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  2, RECYCLE_ENERGY
@@ -1872,7 +1872,7 @@ TapDeck: ;
 	dbw  2, BILL
 	db 0
 
-ChainLightingByPikachuDeck: ; 
+ChainLightingByPikachuDeck: ; 5a800
 	dbw 15, LIGHTNING_ENERGY
 	dbw  8, FIGHTING_ENERGY
 	dbw  2, RAINBOW_ENERGY
@@ -1894,7 +1894,7 @@ ChainLightingByPikachuDeck: ;
 	dbw  2, MASTER_BALL
 	db 0
 
-ThisIsThePowerOfElectricityDeck: ; 
+ThisIsThePowerOfElectricityDeck: ; 5a83a
 	dbw 26, LIGHTNING_ENERGY
 	dbw  2, PIKACHU_LV13
 	dbw  1, FLYING_PIKACHU_LV12
@@ -1916,7 +1916,7 @@ ThisIsThePowerOfElectricityDeck: ;
 	dbw  2, BILL
 	db 0
 
-QuickAttackDeck: ; 
+QuickAttackDeck: ; 5a874
 	dbw 20, LIGHTNING_ENERGY
 	dbw  2, PIKACHU_LV5
 	dbw  2, PIKACHU_LV14
@@ -1934,7 +1934,7 @@ QuickAttackDeck: ;
 	dbw  4, BILL
 	db 0
 
-CompleteCombustionDeck: ; 
+CompleteCombustionDeck: ; 5a8a2
 	dbw 28, FIRE_ENERGY
 	dbw  3, GROWLITHE_LV12
 	dbw  2, ARCANINE_LV45
@@ -1952,7 +1952,7 @@ CompleteCombustionDeck: ;
 	dbw  1, NIGHTLY_GARBAGE_RUN
 	db 0
 
-FireballDeck: ; 
+FireballDeck: ; 5a8d0
 	dbw 22, FIRE_ENERGY
 	dbw  4, CHARMANDER_LV9
 	dbw  3, DARK_CHARMELEON
@@ -1971,7 +1971,7 @@ FireballDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-EeveeShowdownDeck: ; 
+EeveeShowdownDeck: ; 5a901
 	dbw 13, FIRE_ENERGY
 	dbw  9, LIGHTNING_ENERGY
 	dbw  4, CHARMANDER_LV12
@@ -1991,7 +1991,7 @@ EeveeShowdownDeck: ;
 	dbw  4, BILL
 	db 0
 
-GazeUponThePowerOfFireDeck: ; 
+GazeUponThePowerOfFireDeck: ; 5a935
 	dbw 22, FIRE_ENERGY
 	dbw  4, CHARMANDER_LV9
 	dbw  2, DARK_CHARMELEON
@@ -2008,7 +2008,7 @@ GazeUponThePowerOfFireDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-WhirlpoolShowerDeck: ; 
+WhirlpoolShowerDeck: ; 5a960
 	dbw 23, WATER_ENERGY
 	dbw  4, STARYU_LV15
 	dbw  3, DARK_STARMIE
@@ -2024,7 +2024,7 @@ WhirlpoolShowerDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-ParalyzedParalyzedDeck: ; 
+ParalyzedParalyzedDeck: ; 5a988
 	dbw 20, WATER_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, SQUIRTLE_LV8
@@ -2042,7 +2042,7 @@ ParalyzedParalyzedDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-BenchCallDeck: ; 
+BenchCallDeck: ; 5a9b6
 	dbw 23, WATER_ENERGY
 	dbw  4, SEEL_LV10
 	dbw  3, DEWGONG_LV24
@@ -2061,7 +2061,7 @@ BenchCallDeck: ;
 	dbw  2, BILL
 	db 0
 
-WaterStreamDeck: ; 
+WaterStreamDeck: ; 5a9e7
 	dbw 19, WATER_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  4, GOLDEEN
@@ -2078,7 +2078,7 @@ WaterStreamDeck: ;
 	dbw  4, BILL
 	db 0
 
-RockBlastDeck: ; 
+RockBlastDeck: ; 5aa12
 	dbw 22, FIGHTING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, DIGLETT_LV15
@@ -2095,7 +2095,7 @@ RockBlastDeck: ;
 	dbw  2, POKEBALL
 	db 0
 
-FullStrengthDeck: ; 
+FullStrengthDeck: ; 5aa3d
 	dbw 20, FIGHTING_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  2, SCYTHER_LV25
@@ -2113,7 +2113,7 @@ FullStrengthDeck: ;
 	dbw  3, BILL
 	db 0
 
-RunningWildDeck: ; 
+RunningWildDeck: ; 5aa6b
 	dbw 18, FIGHTING_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  3, SCYTHER_LV25
@@ -2130,7 +2130,7 @@ RunningWildDeck: ;
 	dbw  4, BILL
 	db 0
 
-DirectHitDeck: ; 
+DirectHitDeck: ; 5aa96
 	dbw 23, PSYCHIC_ENERGY
 	dbw  4, PSYDUCK_LV16
 	dbw  3, DARK_GOLDUCK
@@ -2149,7 +2149,7 @@ DirectHitDeck: ;
 	dbw  2, BILL
 	db 0
 
-SuperdestructivePowerDeck: ; 
+SuperdestructivePowerDeck: ; 5aac7
 	dbw 10, FIGHTING_ENERGY
 	dbw 15, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
@@ -2168,7 +2168,7 @@ SuperdestructivePowerDeck: ;
 	dbw  2, BILL
 	db 0
 
-BadDreamDeck: ; 
+BadDreamDeck: ; 5aaf8
 	dbw 18, PSYCHIC_ENERGY
 	dbw  4, FULLHEAL_ENERGY
 	dbw  4, GASTLY_LV13
@@ -2186,7 +2186,7 @@ BadDreamDeck: ;
 	dbw  3, POKEBALL
 	db 0
 
-PokemonPowerDeck: ; 
+PokemonPowerDeck: ; 5ab26
 	dbw 20, PSYCHIC_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, POTION_ENERGY
@@ -2202,7 +2202,7 @@ PokemonPowerDeck: ;
 	dbw  3, DARK_DRAGONAIR
 	db 0
 
-SpiritedAwayDeck: ; 
+SpiritedAwayDeck: ; 5ab4e
 	dbw 18, PSYCHIC_ENERGY
 	dbw  4, GASTLY_LV17
 	dbw  4, DARK_HAUNTER
@@ -2220,7 +2220,7 @@ SpiritedAwayDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-SnorlaxGuardDeck: ; 
+SnorlaxGuardDeck: ; 5ab7c
 	dbw  1, GRASS_ENERGY
 	dbw  1, FIRE_ENERGY
 	dbw  1, WATER_ENERGY
@@ -2245,7 +2245,7 @@ SnorlaxGuardDeck: ;
 	dbw  3, BILLS_TELEPORTER
 	db 0
 
-EyeOfTheStormDeck: ; 
+EyeOfTheStormDeck: ; 5abbf
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, FULLHEAL_ENERGY
 	dbw  4, RECYCLE_ENERGY
@@ -2269,7 +2269,7 @@ EyeOfTheStormDeck: ;
 	dbw  2, COMPUTER_SEARCH
 	db 0
 
-SuddenGrowthDeck: ; 
+SuddenGrowthDeck: ; 5abff
 	dbw  5, FIGHTING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, POTION_ENERGY
@@ -2293,7 +2293,7 @@ SuddenGrowthDeck: ;
 	dbw  3, NIGHTLY_GARBAGE_RUN
 	db 0
 
-IshiharaDeck: ; 
+IshiharaDeck: ; 5ac3f
 	dbw 22, WATER_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  2, POTION_ENERGY
@@ -2320,7 +2320,7 @@ IshiharaDeck: ;
 	dbw  1, LASS
 	db 0
 
-BadGuysDeck: ; 
+BadGuysDeck: ; 5ac88
 	dbw  6, GRASS_ENERGY
 	dbw  8, FIRE_ENERGY
 	dbw  8, PSYCHIC_ENERGY
@@ -2341,7 +2341,7 @@ BadGuysDeck: ;
 	dbw  2, NIGHTLY_GARBAGE_RUN
 	db 0
 
-PoisonMistDeck: ; 
+PoisonMistDeck: ; 5acbf
 	dbw 20, GRASS_ENERGY
 	dbw  2, FULLHEAL_ENERGY
 	dbw  3, SCYTHER_LV25
@@ -2359,7 +2359,7 @@ PoisonMistDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-UltraRemovalDeck: ; 
+UltraRemovalDeck: ; 5aced
 	dbw 18, WATER_ENERGY
 	dbw  4, SQUIRTLE_LV8
 	dbw  3, WARTORTLE_LV22
@@ -2376,7 +2376,7 @@ UltraRemovalDeck: ;
 	dbw  2, GUST_OF_WIND
 	db 0
 
-RuiPsychicBattleDeck: ; 
+RuiPsychicBattleDeck: ; 5ad18
 	dbw 10, PSYCHIC_ENERGY
 	dbw 12, FIGHTING_ENERGY
 	dbw  3, MR_MIME_LV28
@@ -2394,7 +2394,7 @@ RuiPsychicBattleDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-StopLifeDeck: ; 
+StopLifeDeck: ; 5ad46
 	dbw 18, GRASS_ENERGY
 	dbw  4, BULBASAUR_LV12
 	dbw  3, DARK_IVYSAUR
@@ -2413,7 +2413,7 @@ StopLifeDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-ScorcherDeck: ; 
+ScorcherDeck: ; 5ad77
 	dbw 18, FIRE_ENERGY
 	dbw  4, CHARMANDER_LV9
 	dbw  3, DARK_CHARMELEON
@@ -2432,7 +2432,7 @@ ScorcherDeck: ;
 	dbw  2, ENERGY_RETRIEVAL
 	db 0
 
-TsunamiStarterDeck: ; 
+TsunamiStarterDeck: ; 5ada8
 	dbw 18, WATER_ENERGY
 	dbw  4, SQUIRTLE_LV8
 	dbw  1, DARK_WARTORTLE
@@ -2453,7 +2453,7 @@ TsunamiStarterDeck: ;
 	dbw  3, SUPER_POTION
 	db 0
 
-SmashToMincemeatDeck: ; 
+SmashToMincemeatDeck: ; 5addf
 	dbw 18, FIGHTING_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, MACHOP_LV20
@@ -2473,7 +2473,7 @@ SmashToMincemeatDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-TestYourLuckDeck: ; 
+TestYourLuckDeck: ; 5ae13
 	dbw 21, FIRE_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, MAGMAR_LV27
@@ -2487,7 +2487,7 @@ TestYourLuckDeck: ;
 	dbw  3, BILL
 	db 0
 
-ProtohistoricDeck: ; 
+ProtohistoricDeck: ; 5ae35
 	dbw 18, FIGHTING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, CHARMANDER_LV10
@@ -2508,7 +2508,7 @@ ProtohistoricDeck: ;
 	dbw  4, BILL
 	db 0
 
-TextureTuner7Deck: ; 
+TextureTuner7Deck: ; 5ae6c
 	dbw 21, GRASS_ENERGY
 	dbw  3, DOUBLE_COLORLESS_ENERGY
 	dbw  4, ZUBAT_LV12
@@ -2527,7 +2527,7 @@ TextureTuner7Deck: ;
 	dbw  4, BILL
 	db 0
 
-ColorlessEnergyDeck: ; 
+ColorlessEnergyDeck: ; 5ae9d
 	dbw  8, WATER_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  4, POTION_ENERGY
@@ -2554,7 +2554,7 @@ ColorlessEnergyDeck: ;
 	dbw  3, BILL
 	db 0
 
-PowerfulPokemonDeck: ; 
+PowerfulPokemonDeck: ; 5aee6
 	dbw  7, FIRE_ENERGY
 	dbw  5, WATER_ENERGY
 	dbw  3, LIGHTNING_ENERGY
@@ -2572,7 +2572,7 @@ PowerfulPokemonDeck: ;
 	dbw  4, BILL
 	db 0
 
-WeirdDeck: ; 
+WeirdDeck: ; 5af14
 	dbw 10, WATER_ENERGY
 	dbw 16, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
@@ -2593,7 +2593,7 @@ WeirdDeck: ;
 	dbw  2, GOOP_GAS_ATTACK
 	db 0
 
-StrangeDeck: ; 
+StrangeDeck: ; 5af4b
 	dbw 25, PSYCHIC_ENERGY
 	dbw  3, PSYDUCK_LV16
 	dbw  2, DARK_GOLDUCK
@@ -2612,7 +2612,7 @@ StrangeDeck: ;
 	dbw  2, POKEMON_FLUTE
 	db 0
 
-RonaldsDeck: ; 
+RonaldsDeck: ; 5af7c
 	dbw 15, WATER_ENERGY
 	dbw 13, FIGHTING_ENERGY
 	dbw  3, TENTACOOL
@@ -2633,7 +2633,7 @@ RonaldsDeck: ;
 	dbw  2, BILL
 	db 0
 
-GRXDeck: ; 
+GRXDeck: ; 5afb3
 	dbw 24, GRASS_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  2, RECYCLE_ENERGY
@@ -2652,7 +2652,7 @@ GRXDeck: ;
 	dbw  3, BILL
 	db 0
 
-HalfWayThroughGB2IslandDeck: ; 
+HalfWayThroughGB2IslandDeck: ; 5afe4
 	dbw 16, FIGHTING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
 	dbw  2, POTION_ENERGY
@@ -2675,7 +2675,7 @@ HalfWayThroughGB2IslandDeck: ;
 	dbw  4, BILL
 	db 0
 
-JustOutsideRocketCastleDeck: ; 
+JustOutsideRocketCastleDeck: ; 5b021
 	dbw 23, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  2, FULLHEAL_ENERGY
@@ -2695,7 +2695,7 @@ JustOutsideRocketCastleDeck: ;
 	dbw  1, BILLS_TELEPORTER
 	db 0
 
-Deck_7055: ; 
+Deck_7055: ; 5b055
 	dbw  1, FIRE_ENERGY
 	dbw  1, WATER_ENERGY
 	dbw  2, LIGHTNING_ENERGY
@@ -2720,7 +2720,7 @@ Deck_7055: ;
 	dbw  2, THE_ROCKETS_TRAP
 	db 0
 
-EverybodysFriendDeck: ; 
+EverybodysFriendDeck: ; 5b098
 	dbw  5, FIRE_ENERGY
 	dbw  7, FIGHTING_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
@@ -2740,7 +2740,7 @@ EverybodysFriendDeck: ;
 	dbw  2, ITEMFINDER
 	db 0
 
-ImmortalPokemonDeck: ; 
+ImmortalPokemonDeck: ; 5b0cc
 	dbw 16, PSYCHIC_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, ABRA_LV14
@@ -2762,7 +2762,7 @@ ImmortalPokemonDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-TorrentialFloodDeck: ; 
+TorrentialFloodDeck: ; 5b106
 	dbw 22, WATER_ENERGY
 	dbw  4, SQUIRTLE_LV14
 	dbw  3, WARTORTLE_LV24
@@ -2781,7 +2781,7 @@ TorrentialFloodDeck: ;
 	dbw  2, SWITCH
 	db 0
 
-TrainerImprisonDeck: ; 
+TrainerImprisonDeck: ; 5b137
 	dbw 18, PSYCHIC_ENERGY
 	dbw  2, FULLHEAL_ENERGY
 	dbw  4, GASTLY_LV13
@@ -2799,7 +2799,7 @@ TrainerImprisonDeck: ;
 	dbw  4, POKEMON_TRADER
 	db 0
 
-BlazingFlameDeck: ; 
+BlazingFlameDeck: ; 5b165
 	dbw 20, FIRE_ENERGY
 	dbw  2, DOUBLE_COLORLESS_ENERGY
 	dbw  4, VULPIX_LV13
@@ -2818,7 +2818,7 @@ BlazingFlameDeck: ;
 	dbw  3, BILL
 	db 0
 
-DamageChaosDeck: ; 
+DamageChaosDeck: ; 5b196
 	dbw  2, GRASS_ENERGY
 	dbw 16, PSYCHIC_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
@@ -2840,7 +2840,7 @@ DamageChaosDeck: ;
 	dbw  4, BILL
 	db 0
 
-BigThunderDeck: ; 
+BigThunderDeck: ; 5b1d0
 	dbw 22, LIGHTNING_ENERGY
 	dbw  4, ZAPDOS_LV68
 	dbw  4, DITTO
@@ -2857,7 +2857,7 @@ BigThunderDeck: ;
 	dbw  2, MASTER_BALL
 	db 0
 
-PowerOfDarknessDeck: ; 
+PowerOfDarknessDeck: ; 5b1fb
 	dbw  3, WATER_ENERGY
 	dbw 14, PSYCHIC_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
@@ -2880,7 +2880,7 @@ PowerOfDarknessDeck: ;
 	dbw  2, BILLS_TELEPORTER
 	db 0
 
-TobichanDeck: ; 
+TobichanDeck: ; 5b238
 	dbw 11, GRASS_ENERGY
 	dbw 10, FIRE_ENERGY
 	dbw  4, DOUBLE_COLORLESS_ENERGY
@@ -2899,7 +2899,7 @@ TobichanDeck: ;
 	dbw  2, ENERGY_REMOVAL
 	db 0
 
-Deck_7269: ; 
+Deck_7269: ; 5b269
 	dbw 10, FIRE_ENERGY
 	dbw  8, LIGHTNING_ENERGY
 	dbw  6, FIGHTING_ENERGY
@@ -2930,3 +2930,4 @@ Deck_7269: ;
 	dbw  2, POTION
 	dbw  2, FULL_HEAL
 	db 0
+; 5b2c1
